@@ -1,0 +1,43 @@
+body{
+    background-image: radial-gradient(#e66465, #9198e5);
+}
+
+.myGrid{
+    display: grid;
+    height: auto;
+    width: auto;
+    
+}
+
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    justify-content: center;
+    
+}
+
+.SideBox{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+
+}
+
+.CenterBox{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid Purple;
+    border-radius: 20px;
+}
+
+#submit{
+    border-radius: 10px;
+    background-color: blue;
+    font-family: sans-serif;
+}
