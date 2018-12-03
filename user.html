@@ -1,35 +1,39 @@
-<!DOCTYPE html> <html>
-<head>
-  <link href="" rel="stylesheet" type="text/css"/>
-</head>
-  <body>
- <div class="topImg">
-     <img src= ""/> <br /><br />
- </div>
-<h2>ADD NEW USER</h2>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Hire Me </title>
+    <link href="styles/index.css" type="text/css" rel="stylesheet"/>
+ </head>
+ <body>
+<div class="myGrid">
+ <div class="topBox" >
+   <h2> Hire Me </h2>
+</div>
+<div class="sideBox">
+   <img src="img/home.jpg" id="home"> Home </img>
+   <img src="img/addon.jpg" id="Addon"> Add User </img>
+   <img src="img/edit.jpg" id="Edit"> New Job </img>
+   <img src="img/logout.jpg" id="Logout"> Logout </img>
+</div>
+<div class="CenterBox">
+  <h3> New User </h3>Z
 
-<form method = "POST" action="user.php">
+  <form method="POST" action="">
 
-  <p>Firstname: </p> <input id = "first" type = "text" name = "firstname" placeholder = "Firstname" required>
-  <br><br>
+    Firstname <input name="firstname" type="text" size="25" />     <br> <br>
 
-  <p>Lastname: </p> <input id = "last" type = "text" name = "lastname" placeholder = "Lastname" required>
-  <br><br>
-  
-  <p>Password: </p> <input id = "password" type = "text" name = "password" placeholder = "" required>
-  <br><br>
-  
-  <p>Email: </p> <input id = "email" type = "text" name = "email" placeholder = " e.g. mary.jane@example.com" required>
-  <br><br>
+    Lastname <input name="lastname" type="text" size="25" />     <br> <br>
 
+    Password <input type="text" name="password" size="25" />  <br> <br>
 
-  <p>telephone: </p> <input id = "telephone" type = "text" name = "telephone" placeholder = "e.g. 876-099-9900" required>
-  <br><br>
+    Email <input type="text" name="email" size="25" placeholder="e.g. mary.jane@example.com" /> <br> <br>
 
-  <input type="submit" value="submit">
-
- </form>
-
+    Telephone <input type="text" name="telephone" size="25" placeholder="e.g. 876-999-8969" />  <br> <br>
+    <!--<button id="signIn" type="submist">Sign In</button>-->
+  <input type="submit" value="SignIn" id="submit">
+  </form>
+</div>
+</div>
 </body>
 
 </html>
