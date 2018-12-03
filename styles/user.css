@@ -1,3 +1,58 @@
 body{
-  background-image: radial-gradient(#e66465, #9198e5);
+  background-image: white;
+}
+
+.myGrid{
+    display: grid;
+    height: auto;
+    width: auto;
+
+}
+
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: left;
+    border:2p solid black;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+    font-size: 9px;
+    padding-left: 20px;
+
+}
+
+.sideBox{
+   border: 2px solid #bfbfbf;
+   background-color: #bfbfbf;
+   width: 159px;
+   height: 400px;
+}
+
+.CenterBox{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: Times;
+    width: 500px;
+}
+
+#submit{
+    border-radius: 4px;
+    background-color: #008CBA;
+    font-family: sans-serif;
+    width: 120px;
+}
+
+#icon{
+    border-radius: 20px;
+    
+}
+
+#curvIt{
+    border-radius: 5px;
 }

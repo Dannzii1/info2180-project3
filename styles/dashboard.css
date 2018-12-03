@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+}
+
+.myGrid{
+    display: grid;
+    height: auto;
+    width: auto;
+    
+}
+
+.topBox{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+    font-family: cursive;
+    font-size: 9px;
+    padding-left: 20px;
+    
+}
+
+
+
+.sideBox{
+    border: 2px solid #bfbfbf;
+    background-color: #bfbfbf;
+    height: 400px;
+    width: 159px;
+}
+
+.centerBox{
+   border:2px solid white;
+   width: 400px;
+   font-family: Times;
+
+}
+
+#colorIt{
+    background-color:  #66ff33;
+    border-radius: 4px;
+    margin-left: 150px;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+

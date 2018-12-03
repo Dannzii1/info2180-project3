@@ -24,6 +24,7 @@ body{
 
 .SideBox{
     margin-top: 10px;
+    margin-right: 10px;
     display: flex;
     margin-left: 10px;
 
@@ -31,7 +32,8 @@ body{
 
 .CenterBox{
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 20px;
+    flex-wrap: wrap;
     border: 2px solid Purple;
     border-radius: 20px;
 }
