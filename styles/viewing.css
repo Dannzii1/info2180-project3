@@ -30,26 +30,27 @@ body{
 .sideBox{
     border: 2px solid  #e6e6e6;
     background-color:  #e6e6e6;
-    height: 400px;
-    width: 159px;
+    width: 200px;
 }
 
 .centerBox{
    border:2px solid white;
-   width: 400px;
+   width: 600px;
    font-family: Times;
-   height: 400px;
+   height: 900px;
+
 
 }
 
 #colorIt{
     background-color:  #66ff33;
     border-radius: 4px;
-    margin-left: 162pt;
+    margin-left: 25em;
+    
 }
 
 h2{
-    margin-left: 1px;
+    margin-left: 20px;
 }
 
 #home{
@@ -69,9 +70,6 @@ table{
     border-collapse: collapse;
     font-family: Times;
     font-size: 1.1em;
-    width: 600px;
-    
-    
 }
 
 #headr{
@@ -82,12 +80,14 @@ th,td{
     padding-right: 0.5em;
     padding-left: 0.5em;
     white-space: nowrap;
-    background-color:#f2f2f2;
-    
 }
 
 td,tr{
     text-align: center;
     border-bottom: 1px;
-    background-color: white;
+}
+
+#growIt{
+    font-size: 30px;
+    font-weight: bold;
 }

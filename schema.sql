@@ -17,12 +17,12 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 
-DROP DATABASE IF EXISTS test;
-CREATE DATABASE test;
-USE test;
+DROP DATABASE IF EXISTS schema;
+CREATE DATABASE schema;
+USE schema;
 
 --
--- Database: `test`
+-- Database: `schema`
 --
 
 -- --------------------------------------------------------
@@ -59,10 +59,10 @@ CREATE TABLE IF NOT EXISTS `Jobs_Applied_For` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `User`
+-- Table structure for table `Users`
 --
 
-CREATE TABLE IF NOT EXISTS `User` (
+CREATE TABLE IF NOT EXISTS `Users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `firstname` varchar(200) COLLATE utf8_bin NOT NULL,
   `lastname` varchar(200) COLLATE utf8_bin NOT NULL,
@@ -76,10 +76,10 @@ CREATE TABLE IF NOT EXISTS `User` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_bin AUTO_INCREMENT=2 ;
 
 --
--- Dumping data for table `User`
+-- Dumping data for table `Users`
 --
 
-INSERT INTO `User` (`id`, `firstname`, `lastname`, `password`, `telephone`, `email`, `data_joined`) VALUES
+INSERT INTO `Users` (`id`, `firstname`, `lastname`, `password`, `telephone`, `email`, `data_joined`) VALUES
 (1, '', '', 'password123', '', 'admin@hireme.com', '2018-12-02');
 
 --

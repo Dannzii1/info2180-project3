@@ -1,5 +1,20 @@
 body{
-  background-image: white;
+    background-color: white;
+    height: auto;
+    width: auto;
+}
+
+
+#submit{
+    border-radius: 4px;
+    background-color: #008CBA;
+    font-family: sans-serif;
+    width: 120px; 
+}
+
+#curvIt{
+    border-radius: 5px;
+    width: 250px;
 }
 
 .myGrid{
@@ -32,30 +47,12 @@ body{
    height: 500px;
 }
 
-.CenterBox{
+.centerBox{
     margin-top: 10px;
     margin-left: 10px;
-    border-radius: 20px;
     font-family: Times;
     width: 500px;
     margin-right: 600px;
-}
-
-#submit{
-    border-radius: 4px;
-    background-color: #008CBA;
-    font-family: sans-serif;
-    width: 120px;
-}
-
-#icon{
-    border-radius: 20px;
-    
-}
-
-#curvIt{
-    border-radius: 5px;
-    width: 300px;
 }
 
 #home{
@@ -68,3 +65,4 @@ img{
     margin-left: 20px;
     
 }
+
